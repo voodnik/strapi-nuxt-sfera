@@ -37,6 +37,22 @@
     },
     "address": {
       "type": "string"
+    },
+    "coordinates": {
+      "type": "string"
+    },
+    "characteristics": {
+      "type": "json"
+    },
+    "gallery": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
     }
   }
 }
